@@ -2,7 +2,9 @@ import React from "react";
 
 class FormPersonalDetails extends React.Component {
   render() {
-    return <div />;
+    return (
+      <h1>Form Personal Details</h1>
+    );
   }
 }
 

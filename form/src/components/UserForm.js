@@ -35,7 +35,7 @@ class UserForm extends React.Component {
     });
   };
 
-  handleChange = (input, e) => {
+  handleChange = input => e => {
     this.setState({
       [input]: e.target.value
     });
