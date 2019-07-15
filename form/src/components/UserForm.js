@@ -65,9 +65,11 @@ class UserForm extends React.Component {
         );
       case 2:
         return (
-          <h1>
-            <FormPersonalDetails />
-          </h1>
+            <FormPersonalDetails 
+            nextStep={this.nextStep}
+            handleChange={this.handleChange}
+            values={values} 
+            prevStep={this.prevStep} />
         );
       case 3:
         return (
